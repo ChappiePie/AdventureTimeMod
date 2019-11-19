@@ -1,0 +1,16 @@
+[
+{
+  "modid": "atime",
+  "name": "Adventure Time Mod",
+  "description": "Adventure Time!",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Chappie"],
+  "credits": "Chappsquad",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
