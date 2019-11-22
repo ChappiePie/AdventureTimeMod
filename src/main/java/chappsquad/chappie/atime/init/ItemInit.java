@@ -21,8 +21,9 @@ public class ItemInit
 	
 	//Tool Materials
 	//public static final ToolMaterial COPPER_TOOL = EnumHelper.addToolMaterial("copper_tool", 2, 400, 3.0f, 5.0f, 20);
-	public static final ToolMaterial FINN_GOLDEN_TOOL = EnumHelper.addToolMaterial("finn_golden_tool", 2, 400, 3.0f, 9.0f, 20);
-	
+	public static final ToolMaterial SCARLET_TOOL = EnumHelper.addToolMaterial("scarlet_tool", 2, 400, 3.0f, 5.0f, 20);
+	public static final ToolMaterial FINN_TOOL = EnumHelper.addToolMaterial("finn_tool", 2, 800, 3.0f, 8.0f, 20);
+	public static final ToolMaterial DEMONIC_TOOL = EnumHelper.addToolMaterial("demonic_tool", 2, 1000, 3.0f, 12.0f, 20);
 	//Items
 	//public static final Item COPPER_INGOT = new ItemBase("copper_ingot", Main.TUTORIAL);
 	
@@ -37,5 +38,9 @@ public class ItemInit
 	//public static final Item COPPER_HOE = new ToolHoeBase("copper_hoe", COPPER_TOOL, Main.TUTORIAL);
 	//public static final Item COPPER_PICKAXE = new ToolPickaxeBase("copper_pickaxe", COPPER_TOOL, Main.TUTORIAL);
 	//public static final Item COPPER_SHOVEL = new ToolShovelBase("copper_shovel", COPPER_TOOL, Main.TUTORIAL);
-	public static final Item FINN_SWORD = new ToolSwordBase("finn_sword", FINN_GOLDEN_TOOL, Atime.TAB);
+	public static final Item SCARLET_SWORD = new ToolSwordBase("scarlet_sword", SCARLET_TOOL, Atime.TAB);
+	public static final Item FINN_SWORD = new ToolSwordBase("finn_sword", FINN_TOOL, Atime.TAB);
+	public static final Item DEMONIC_SWORD = new ToolSwordBase("demonic_sword", DEMONIC_TOOL, Atime.TAB);
+
+
 }
