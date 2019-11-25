@@ -1,4 +1,10 @@
+#Nice
 item.scarlet_sword.name=Scarlet Sword
 item.finn_sword.name=Finn Sword
 item.demonic_sword.name=Demonic Sword
+item.grass_sword.name=Grass Sword
+item.tree_root_sword.name=Tree root Sword
+item.four_d_sword.name=4D Sword
+item.rapier.name=Rapier
 itemGroup.swordtab=Swords Tab
+item.finn_helmet.name=Finn's hat

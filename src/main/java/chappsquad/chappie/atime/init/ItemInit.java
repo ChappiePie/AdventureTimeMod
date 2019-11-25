@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import chappsquad.chappie.atime.Atime;
+import chappsquad.chappie.atime.items.armour.ArmourModel;
 import chappsquad.chappie.atime.items.tools.ToolSwordBase;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -17,7 +18,7 @@ public class ItemInit
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 			
 	//Armour Materials
-	//public static final ArmorMaterial CUSTOM_MODEL_MATERIAL = EnumHelper.addArmorMaterial("custom_model", Reference.MODID + ":custom_model", 20, new int[] {7, 8, 8, 9}, 0, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0f);
+	public static final ArmorMaterial FINN_MATERIAL = EnumHelper.addArmorMaterial("finn_model", Atime.MODID + ":finn_model", 20, new int[] {7, 8, 8, 9}, 0, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0f);
 	
 	//Tool Materials
 	//public static final ToolMaterial COPPER_TOOL = EnumHelper.addToolMaterial("copper_tool", 2, 400, 3.0f, 5.0f, 20);
@@ -28,7 +29,7 @@ public class ItemInit
 	//public static final Item COPPER_INGOT = new ItemBase("copper_ingot", Main.TUTORIAL);
 	
 	//Armour
-	 //public static final Item CUSTOM_HELMET = new ArmourModel("custom_helmet", Main.TUTORIAL, CUSTOM_MODEL_MATERIAL, EntityEquipmentSlot.HEAD);
+	 public static final Item FINN_HELMET = new ArmourModel("finn_helmet", Atime.TAB, FINN_MATERIAL, EntityEquipmentSlot.HEAD);
 	 //public static final Item CUSTOM_CHESTPLATE = new ArmourModel("custom_chestplate", Main.TUTORIAL, CUSTOM_MODEL_MATERIAL, EntityEquipmentSlot.CHEST);
 	 //public static final Item CUSTOM_LEGGINGS = new ArmourModel("custom_leggings", Main.TUTORIAL, CUSTOM_MODEL_MATERIAL, EntityEquipmentSlot.LEGS);
 	 //public static final Item CUSTOM_BOOTS = new ArmourModel("custom_boots", Main.TUTORIAL, CUSTOM_MODEL_MATERIAL, EntityEquipmentSlot.FEET);
@@ -41,6 +42,9 @@ public class ItemInit
 	public static final Item SCARLET_SWORD = new ToolSwordBase("scarlet_sword", SCARLET_TOOL, Atime.TAB);
 	public static final Item FINN_SWORD = new ToolSwordBase("finn_sword", FINN_TOOL, Atime.TAB);
 	public static final Item DEMONIC_SWORD = new ToolSwordBase("demonic_sword", DEMONIC_TOOL, Atime.TAB);
-
+	public static final Item GRASS_SWORD = new ToolSwordBase("grass_sword", DEMONIC_TOOL, Atime.TAB);
+	public static final Item TREE_ROOT_SWORD = new ToolSwordBase("tree_root_sword", SCARLET_TOOL, Atime.TAB);
+	public static final Item FOUR_D_SWORD = new ToolSwordBase("four_d_sword", FINN_TOOL, Atime.TAB);
+	public static final Item RAPIER = new ToolSwordBase("rapier", SCARLET_TOOL, Atime.TAB);
 
 }

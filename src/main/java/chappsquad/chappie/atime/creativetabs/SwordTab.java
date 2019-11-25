@@ -1,5 +1,6 @@
 package chappsquad.chappie.atime.creativetabs;
 
+import chappsquad.chappie.atime.init.ItemInit;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -14,6 +15,6 @@ public class SwordTab extends CreativeTabs
 	@Override
 	public ItemStack getTabIconItem() 
 	{
-		return new ItemStack(Items.GOLDEN_SWORD);//ItemInit.COPPER_INGOT);
+		return new ItemStack(ItemInit.SCARLET_SWORD);//ItemInit.COPPER_INGOT);
 	}
 }
