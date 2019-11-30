@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " Y ",
+        " X ",
+        " # "
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:iron_ingot"
+        },
+        "Y": {
+            "item": "minecraft:iron_nugget"
+        },
+        "#": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "atime:rapier"
+    }
+}
