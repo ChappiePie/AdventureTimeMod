@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " X ",
+        " X ",
+        " # "
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:iron"
+        },
+        "#": {
+            "block": "minecraft:log"
+        }
+    },
+    "result": {
+        "item": "atime:tree_root_sword"
+    }
+}

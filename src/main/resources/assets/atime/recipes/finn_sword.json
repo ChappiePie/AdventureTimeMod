@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " X ",
+        " # "
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "#": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "atime:finn_sword"
+    }
+}

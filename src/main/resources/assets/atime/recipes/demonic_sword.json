@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " X ",
+        "XXX",
+        " # "
+    ],
+    "key": {
+        "X": {
+            "item": "minecraft:redstone"
+        },
+        "#": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "atime:demonic_sword"
+    }
+}

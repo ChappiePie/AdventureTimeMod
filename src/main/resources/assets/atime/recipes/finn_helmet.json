@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "XXX",
+        "X X",
+        "   "
+    ],
+    "key": {
+        "X": {
+      "block": "minecraft:wool",
+      "data": 0
+    },
+    "result": {
+        "item": "atime:finn_helmet"
+    }
+}
